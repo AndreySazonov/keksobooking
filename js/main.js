@@ -15,4 +15,4 @@ function getRandomWithDot(min, max, digits) {
 }
 
 getRandomInteger(0, 10);
-console.log(getRandomWithDot(0, 10, 3));
+getRandomWithDot(0, 10, 3);
