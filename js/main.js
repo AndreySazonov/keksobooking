@@ -74,7 +74,6 @@ const QUANTITY_CARDS = 10;
 
 //Массив с последовательностью от 1 до OUANTITY_CARDS
 const authorAvatars = Array.from({length: QUANTITY_CARDS}, (v, k) => ++k);
-console.log(authorAvatars);
 
 const getRandomArrayElement = (elements) => elements[getRandomInteger(0, elements.length - 1)];
 
